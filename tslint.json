@@ -1,0 +1,27 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "rules": {
+      "ordered-imports": false,
+      "object-literal-sort-keys": false,
+      "interface-over-type-literal": false,
+      "no-debugger": false,
+      "no-console": false,
+      "jsx-no-lambda": false,
+      "no-shadowed-variable": false,
+      "max-classes-per-file": true,
+      "no-bitwise": false
+    },
+    "jsRules": {
+      "curly": false,
+      "triple-equals": false,
+      "no-console": false,
+      "object-literal-sort-keys": false //Disable for javascript
+    },
+    "linterOptions": {
+      "exclude": [
+        "config/**/*.js",
+        "node_modules/**/*.ts"
+      ]
+    }
+  }
+  
