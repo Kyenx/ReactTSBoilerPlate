@@ -1,4 +1,5 @@
 # Simple TS Starter kit
+*Instructions if starting from scratch*
 
 ### 1. npm i webpack webpack-cli -D 
 ### 2. npm i typescript awesome-typescript-loader -D
