@@ -19,5 +19,8 @@
         "src/components/*"
       ],
     }
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
